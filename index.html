@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Portfolyo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header / Navigasyon -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="logo">Portfolyo</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#skills">Yetkinlikler</a></li>
+                <li><a href="#experience">Deneyim</a></li>
+                <li><a href="#certificates">Sertifikalar</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Merhaba, Ben <span class="highlight">Merve Sardoğan</span></h1>
+                <p>Yazılım Mühendisi</p>
+                <div class="social-icons">
+                    <a href="https://github.com/mervesardogan"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/merve-sardoğan-b0680a242/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/profile.jpg" alt="Profil Resmi">
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımda Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Hakkımda <i class="fas fa-user"></i></h2>
+            <div class="about-content">
+                <p>Merhaba! Ben Merve Sardoğan, Kırklareli Üniversitesi Yazılım Mühendisliği bölümünden yeni mezun bir
+                    yazılım mühendisiyim. Eğitim hayatım boyunca web
+                    teknolojilerine yoğunlaştım ve hem frontend hem de backend alanlarında projeler geliştirerek kendimi
+                    bu yönde
+                    geliştirdim.</p>
+                <p>HTML, CSS, JavaScript, Angular gibi frontend teknolojilerinin yanı sıra Node.js ve MySQL gibi backend
+                    araçlarında da temel düzeyde bilgi ve deneyim sahibiyim.</p>
+                <p>.Öğrenmeye hevesli, analitik düşünebilen ve takım çalışmasına
+                    uyumlu bir yapıya sahibim. Kariyerime web geliştirme alanında başlayarak bilgi birikimimi gerçek
+                    dünya projelerinde
+                    kullanmak ve kendimi sürekli geliştirerek değer katmak istiyorum.</p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <strong>Eğitim:</strong> <span>Kırklareli Üniversitesi-Yazılım Mühendisliği</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>E-posta:</strong> <span>sardoganmerve21@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yetkinlikler Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Yetkinlikler <i class="fas fa-code"></i></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programlama Dilleri <i class="fas fa-laptop-code"></i></h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon java">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon javascript">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon python">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon csharp">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">C#</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frontend Teknolojileri <i class="fas fa-paint-brush"></i></h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon html">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon css">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon scss">
+                                <i class="fab fa-sass"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">SCSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon bootstrap">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Bootstrap</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon angular">
+                                <i class="fab fa-angular"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Angular</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="82%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend & Veritabanı <i class="fas fa-server"></i></h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon nodejs">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon mysql">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="83%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İş Deneyimi Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">İş Deneyimi <i class="fas fa-briefcase"></i></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023-01 | 2023-04</div>
+                    <div class="timeline-content">
+                        <h3>Stajyer Yazılımcı</h3>
+                        <h4>Devialt</h4>
+                        <p>Gönüllü stajyer olarak çalıştım.Gönüllü stajyerlik süresi boyunca front-end geliştirme
+                            alanında görev aldım ve web
+                            arayüzlerinin tasarım süreçlerine katkı sağladım. Bu dönemde HTML ve CSS kullanarak
+                            kullanıcı dostu arayüzler
+                            oluşturdum, görsel düzenlemeler yaptım ve mevcut projelerin geliştirilmesine destek oldum.
+                            Staj süresince temel
+                            web teknolojilerinin uygulamaları üzerinde çalışarak hem bireysel hem de ekip çalışmasına
+                            dayalı deneyimler
+                            kazandım.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024-07 | 2024-09</div>
+                    <div class="timeline-content">
+                        <h3>Stajyer Yazılımcı</h3>
+                        <h4>Kentkart Ege Elektronik A.Ş.</h4>
+                        <p>Zorunlu staj dönemi boyunca yazılım geliştirme süreçlerine aktif olarak dahil oldum ve
+                            Angular, Node.js ile MySQL
+                            kullanarak küçük çaplı projeler geliştirdim. Projelerin geliştirilmesi sırasında kullanılan
+                            teknolojilerin temel ve
+                            ileri
+                            düzey özellikleri üzerinde çalışarak kavramsal bilgimi derinleştirdim.
+                            Kentkart bünyesinde edindiğim bu deneyim sayesinde kurumsal işleyişe dair gözlem yaptım,
+                            gerçek iş ortamında
+                            proje yönetimi süreçlerini tanıdım ve profesyonel yazılım geliştirme disiplinine uyum
+                            sağladım.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sertifikalar Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title">Sertifikalar <i class="fas fa-award"></i></h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Java ile Programlamaya Giriş</h3>
+                        <p>BTK Akademi, 10-2022</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Javascript</h3>
+                        <p>BTK Akademi, 07-2024</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>C# Programlama</h3>
+                        <p>BTK Akademi, 11-2023</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Python ile Sıfırdan İleri Seviye Programlama</h3>
+                        <p>Udemy, 03-2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">İletişim <i class="fas fa-envelope"></i></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>İletişim Bilgilerim</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sardoganmerve21@gmail.com</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Adınız" required>
+                    <input type="email" placeholder="E-posta Adresiniz" required>
+                    <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                    <button type="submit">Gönder <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tüm Hakları Saklıdır. <span class="highlight">Merve Sardoğan</span></p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
